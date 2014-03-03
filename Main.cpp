@@ -289,7 +289,7 @@ int main(int argc, char *argv[])
     TransformType::OffsetType ScleraToWorldOffset;
     ScleraToWorldOffset[0] = 0;
     ScleraToWorldOffset[1] = 0;
-    ScleraToWorldOffset[2] = 0;
+    ScleraToWorldOffset[2] = 1;
     sclera->GetObjectToParentTransform()->SetOffset(ScleraToWorldOffset);
     sclera->ComputeObjectToWorldTransform();
 
