@@ -16,7 +16,7 @@ endif()
 #set(CMAKE_AUTOMOC ON)
 #find_package(Qt5Widgets)
 
-add_executable(ImageToVTKImageFilter main.cpp)
+add_executable(ImageToVTKImageFilter Main.cpp)
 target_link_libraries(ImageToVTKImageFilter
 ${ItkVtkGlue}
 ${VTK_LIBRARIES}
